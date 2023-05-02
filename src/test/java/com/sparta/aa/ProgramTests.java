@@ -1,2 +1,4 @@
-package com.sparta.aa;public class ProgramTests {
+package com.sparta.aa;
+
+public class ProgramTests {
 }

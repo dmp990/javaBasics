@@ -21,6 +21,7 @@ public class PalindromeCheckerTests {
     }
 
     String[] words = {"kayak", "deified", "rotator", "repaper", "deed", "peep", "wow", "noon", "civic", "racecar", "level", "mom"};
+
     @Test
     @DisplayName("returns true for palindromes")
     void checkForPalindromes() {
@@ -30,6 +31,7 @@ public class PalindromeCheckerTests {
     }
 
     String[] nonPalins = {"kayaak", "deifaied", "roftator", "rdepaper", "dgeed", "pceep", "wotw", "nooonn", "civiiic", "racecaaar", "leveel", "morm"};
+
     @Test
     @DisplayName("returns false for non palindromes")
     void checkForNonPalindromes() {

@@ -12,8 +12,8 @@ public class PalindromeChecker {
 
     public static void checkPalins() {
         String[] words = {"kayak", "deified", "rotator", "repaper", "deed", "peep", "wow", "noon", "civic", "racecar", "level", "mom"};
-        for (int i = 0; i < words.length; i++) {
-            System.out.println(PalindromeChecker.isAPalindrome(words[i]));
+        for (String word : words) {
+            System.out.println(PalindromeChecker.isAPalindrome(word));
         }
     }
 
